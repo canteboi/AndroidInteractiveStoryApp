@@ -6,7 +6,7 @@ package com.example.ibanezf.interactivestoryapp.model;
 public class Choice {
     //region Properties
     private String mText;
-    private int mImageId;
+    private int mNextPage;
 
     public String getText() {
         return mText;
@@ -16,18 +16,20 @@ public class Choice {
         mText = text;
     }
 
-    public int getImageId() {
-        return mImageId;
+    public int getNextPage() {
+        return mNextPage;
     }
 
-    public void setImageId(int imageId) {
-        mImageId = imageId;
+    public void setNextPage(int nextPage) {
+        mNextPage = nextPage;
     }
     //endregion
 
-    public Choice(String text, int imageId){
-        mImageId = imageId;
+    public Choice(String text, int nextPage){
+        mNextPage = nextPage;
         mText = text;
 
     }
+
+
 }
