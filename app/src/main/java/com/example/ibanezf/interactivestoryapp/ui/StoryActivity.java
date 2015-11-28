@@ -1,8 +1,11 @@
-package com.example.ibanezf.interactivestoryapp;
+package com.example.ibanezf.interactivestoryapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+
+import com.example.ibanezf.interactivestoryapp.R;
+import com.example.ibanezf.interactivestoryapp.model.Page;
 
 public class StoryActivity extends Activity {
 
